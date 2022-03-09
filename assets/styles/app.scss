@@ -1,5 +1,17 @@
 @import "~bootstrap/scss/bootstrap";
 
-.test{
-    margin-right : 3rem;
+.body-custom{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.navbar-item-custom a{
+    color:black;
+}
+
+.footer-custom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #dfeaff;
+    padding-top: 1rem;
 }
