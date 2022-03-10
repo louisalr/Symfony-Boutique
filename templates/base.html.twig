@@ -16,7 +16,10 @@
     </head>
     <body>
         {% include 'layouts/nav.html.twig' %}
+        
+        <div class="body-custom">
         {% block body %}{% endblock %}
+        </div>
         {% include 'layouts/footer.html.twig' %}
     </body>
 </html>
