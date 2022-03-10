@@ -5,4 +5,7 @@
 {% block body %}
     <h1 class="text-center"> Mon compte </h1>
     <h2> Bienvenue {{ app.user.firstname}} sur votre compte personnel</h2>
+
+
+    <a href="{{ path('app_password')}}"> Modifier mon mdp </a>
 {% endblock %}
