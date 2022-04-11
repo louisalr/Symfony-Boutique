@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ajouter une adresse{% endblock %}
+
+{% block body %}
+
+<a href=" {{ path('app_account_address') }}"> Revenir en arrière </a>
+
+    {{form_start(form_address)}}
+    <div class="row">
+        <div class="col-md-12">{{form_row(form_address.name)}}</div>
+        <div class="col-md-6">{{form_row(form_address.firstname)}} </div>
+        <div class="col-md-6">{{form_row(form_address.lastname)}} </div>
+        <div class="col-md-6">{{form_row(form_address.company)}} </div>
+        <div class="col-md-6">{{form_row(form_address.address)}} </div>
+        <div class="col-md-6">{{form_row(form_address.code_postal)}} </div>
+        <div class="col-md-6">{{form_row(form_address.city)}} </div>
+        <div class="col-md-6">{{form_row(form_address.country)}} </div>
+        <div class="col-md-6">{{form_row(form_address.phone)}} </div>
+    </div>
+    {{form_end(form_address)}}
+
+{% endblock %}
