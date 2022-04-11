@@ -21,11 +21,10 @@
                 <a href="{{ path('app_login')}}"> Connexion </a> | <a href="{{ path('app_register')}}"> Inscription </a>
             {% endif %}
         </div>
-     
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+
+        <a href="{{ path('app_cart')}}">
+          <img src="{{ asset('assets/img/shopping-cart.png') }}" height="30px" alt="Mon panier">
+        </a>
     </div>
   </div>
 </nav>

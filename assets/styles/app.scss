@@ -12,10 +12,11 @@ body{
 }
 
 .footer-custom{
-    position: absolute;
-    width: 100%;
-    background-color: #dfeaff;
-    padding-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100px;
 }
 
 .product-container{
@@ -37,4 +38,9 @@ body{
 .product-item .product-price{
     font-size: 1rem;
     font-weight: bold;
+}
+
+.cart-icon{
+    height: 30px;
+    padding-left:20px;
 }
